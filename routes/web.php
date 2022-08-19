@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/sample/{id}',[\App\Http\Controllers\Sample\IndexContoroller::class,'showId']);
+Route::get('/sample/{id}',[App\Http\Controllers\Sample\IndexController::class,'showId']);
 
 
